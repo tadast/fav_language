@@ -26,18 +26,19 @@ Or install it yourself as:
 
 ## Using the binary
 
-The gem has a command line interface. If you have the repo cloned, the easiest way to test this is to run
+The gem has a command line interface. If you have the gem installed:
 
 ```
-bundle install
-bundle exec exe/fav_lang -h
+fav_lang -h
 ```
 
 Example:
 ```
-bundle exec exe/fav_lang -u tadast
+fav_lang -u tadast
 > JavaScript: 418357 bytes written
 ```
+
+If you have the repo cloned, you can do the above, just append `bundle exec exe/` e.g. `bundle exec exe/fav_lang -u tadast`
 
 ## Using the library
 
