@@ -7,8 +7,6 @@ options = {}
 optparse = OptionParser.new do |opts|
   opts.on('-u', '--username username', String, 'GitHub username') { |o| options[:username] = o }
   opts.on('-t', '--token token', String, 'GitHub auth token to increase rate limit. https://github.com/peter-murach/github#3-authentication') { |o| options[:token] = o }
-  opts.on('-c', '--clientid client_id', String, 'GitHub app client id') { |o| options[:client_id] = o }
-  opts.on('-s', '--secret client_secret', String, 'GitHub app client secret') { |o| options[:client_secret] = o }
 end.parse!
 
 begin
