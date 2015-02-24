@@ -13,6 +13,6 @@ begin
   FavLanguage::Detector.new(options).print
 rescue ArgumentError => e
   puts e.message
-  abort("see 'fav_lang -f' for usage")
+  abort("see 'fav_lang -h' for usage")
 end
 
