@@ -5,7 +5,7 @@ describe "Binary" do
     out = `exe/fav_lang 2>&1`
     expect($?.exitstatus).to eq(1)
     expect(out).to match(/username/)
-    expect(out).to match(/fav_lang \-f/)
+    expect(out).to match(/fav_lang \-h/)
   end
 
   it "prints the favourite language when it's found" do
