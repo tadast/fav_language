@@ -6,8 +6,6 @@ The criteria used is the amount of bytes written in each language in all public 
 
 ## Installation
 
-NB: It is not pushed to rubygems yet
-
 This gem requires ruby >= 2.1
 
 Add this line to your application's Gemfile:
